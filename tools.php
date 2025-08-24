@@ -42,18 +42,19 @@
     <div id="resepList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
       <!-- Resep 1 -->
-      <div class="resep-card cursor-pointer bg-white rounded shadow hover:shadow-lg transition" 
-           data-nama="puding lumut" data-kategori="makanan penutup"
-           onclick="bukaResep('puding-lumut.html')">
+      <a href="Nmap.php">
+        <div class="resep-card cursor-pointer bg-white rounded shadow hover:shadow-lg transition" 
+        data-nama="puding lumut" data-kategori="makanan penutup"
+        onclick="bukaResep('puding-lumut.html')">
         <div class="relative">
-          <img src="https://i.ibb.co/n0rFdPW/puding-lumut.jpg" alt="Puding Lumut" class="w-full h-48 object-cover rounded-t">
+          <img src="Nmap-1024x535.png" alt="Puding Lumut" class="w-full h-48 object-cover rounded-t">
         </div>
         <div class="p-4">
-          <a href="Nmap.php"></a>
           <h4 class="font-bold">PUDING LUMUT</h4>
           <p class="text-sm text-gray-500">Makanan Penutup</p>
         </div>
       </div>
+    </a>
 
       <!-- Resep 2 -->
       <div class="resep-card cursor-pointer bg-white rounded shadow hover:shadow-lg transition" 
