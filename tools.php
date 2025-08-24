@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jago Resep</title>
+  <title>Cyber Xplorer</title>
   <style></style>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -13,15 +13,15 @@
   <nav class="bg-white shadow p-4 flex justify-between items-center">
     <div class="text-xl font-bold text-orange-600">🍳 Jago Resep</div>
     <ul class="flex space-x-4 text-sm font-semibold">
-      <li><a href="H1.php" class="hover:text-orange-600">Beranda</a></li>
-      <li><a href="#" class="text-white bg-orange-600 px-3 py-1 rounded">Resep</a></li>
+      <li><a href="H1.php" class="text-white bg-orange-600 px-3 py-1 rounded">Beranda</a></li>
+      <li><a href="#" class="text-white bg-orange-600 px-3 py-1 rounded">Tools</a></li>
       <li><a href="#" class="text-white bg-orange-600 px-3 py-1 rounded">Quiz</a></li>
     </ul>
   </nav>
 
   <!-- Pencarian -->
   <section class="text-center mt-10 mb-8">
-    <h2 class="text-2xl font-bold mb-4">Cari Resep Makanan</h2>
+    <h2 class="text-2xl font-bold mb-4">Cari Tools</h2>
     <div class="flex justify-center gap-2 flex-wrap">
       <input id="searchInput" type="text" placeholder="Masukkan nama makanan" 
              class="border rounded px-4 py-2 w-64" oninput="filterResep()" />
@@ -47,9 +47,9 @@
            onclick="bukaResep('puding-lumut.html')">
         <div class="relative">
           <img src="https://i.ibb.co/n0rFdPW/puding-lumut.jpg" alt="Puding Lumut" class="w-full h-48 object-cover rounded-t">
-          <span class="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">Resep Teruji</span>
         </div>
         <div class="p-4">
+          <a href="Nmap.php"></a>
           <h4 class="font-bold">PUDING LUMUT</h4>
           <p class="text-sm text-gray-500">Makanan Penutup</p>
         </div>
@@ -61,7 +61,6 @@
            onclick="bukaResep('mochi-brownie.html')">
         <div class="relative">
           <img src="https://i.ibb.co/B6B2sNK/mochi-brownie.jpg" alt="Mochi Brownie" class="w-full h-48 object-cover rounded-t">
-          <span class="absolute top-2 left-2 bg-red-500 text-white text-xs px-2 py-1 rounded">Resep Teruji</span>
         </div>
         <div class="p-4">
           <h4 class="font-bold">Mochi Brownie</h4>
@@ -121,7 +120,7 @@
 
   <!-- Footer -->
   <footer class="text-center text-sm text-gray-500 mt-10 py-6">
-    © 2025 Jago Resep. All rights reserved.
+    © 2025 Kang Steam07. All rights reserved.
   </footer>
 
   <!-- Script JS -->
